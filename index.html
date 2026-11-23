@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Prince Kapadiya — B.Tech Computer Science student portfolio.">
+  <title>Prince Kapadiya | Student Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <a class="logo" href="#home">prince<span>.</span></a>
+    <nav id="nav" class="nav">
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#education">Education</a><a href="#contact">Contact</a>
+    </nav>
+    <div class="header-right">
+      <button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle dark mode">☾</button>
+      <a class="contact-link" href="#contact">Contact</a>
+      <button id="menuToggle" class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-text">
+        <p class="hello">Hi, I'm</p>
+        <h1>Prince Kapadiya</h1>
+        <h2>B.Tech Computer Science Student at JG University</h2>
+        <p class="hero-description">I completed a Diploma in Computer Engineering and am now studying Computer Science. I practise programming, work on college projects and learn web development in my free time.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">View my projects</a>
+          <a class="btn secondary" href="#contact">Contact me</a>
+        </div>
+        <p class="hero-meta">Ahmedabad, Gujarat · Currently learning C++, Python, DSA and Web Technology</p>
+      </div>
+      <div class="hero-side">
+        <div class="simple-profile">
+          <img class="profile-photo" src="images/prince.jpg" alt="Photo of Prince Kapadiya">
+          <h3>Prince Kapadiya</h3>
+          <p>Computer Science Student</p>
+          <p class="profile-detail">JG University</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-label"><span>01</span> ABOUT ME</div>
+      <div class="about-grid">
+        <h2>A little about me</h2>
+        <div class="about-copy">
+          <p>I'm pursuing a B.Tech in Computer Science and Engineering at JG University. Before this, I completed a Diploma in Computer Engineering, which gave me my starting point in technology.</p>
+          <p>Right now, I'm strengthening my programming fundamentals, practising problem-solving and learning web development. I'm also interested in AI, machine learning and data science, and want to explore these fields through practical projects.</p>
+          <p class="small-note">I am still learning, so I will update this page as I complete more coursework and projects.</p>
+        </div>
+      </div>
+      <div class="current-focus">
+        <div><span class="focus-label">CURRENT FOCUS</span><h3>What I am working on</h3></div>
+        <ul><li>Practising C++ and problem-solving</li><li>Improving HTML, CSS and JavaScript</li><li>Building confidence through projects</li></ul>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="section-label"><span>02</span> SKILLS & LEARNING</div>
+      <div class="section-title-row"><h2>Skills and topics</h2><p>These are the languages and topics I have studied or am currently practising.</p></div>
+      <div class="skills-grid">
+        <article class="skill-box"><div class="skill-icon">01</div><h3>Programming</h3><div class="chips"><span>C</span><span>C++</span><span>Python</span></div><p>Writing programs, understanding logic and practising problem-solving.</p></article>
+        <article class="skill-box"><div class="skill-icon">02</div><h3>Web development</h3><div class="chips"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><p>Building webpage structures, styling layouts and adding interactions.</p></article>
+        <article class="skill-box"><div class="skill-icon">03</div><h3>Computer science</h3><div class="chips"><span>DSA</span><span>OOP</span><span>Basics of DBMS</span></div><p>Developing a stronger understanding of core concepts.</p></article>
+        <article class="skill-box learning"><div class="skill-icon">04</div><h3>Exploring</h3><div class="chips"><span>AI / ML</span><span>Data Science</span></div><p>Areas I want to understand better through study and projects.</p></article>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="section-label"><span>03</span> PROJECTS</div>
+      <div class="section-title-row"><h2>My projects</h2><p>A few college and practice projects I have worked on.</p></div>
+      <div class="projects-list">
+        <article class="project">
+          <div class="project-number">01</div><div class="project-main"><div class="project-kicker">DESIGN THINKING · WEB APPLICATION</div><h3>Sarkari Saathi</h3><p>A Design Thinking project about helping users understand public-service processes and the documents they may need.</p><div class="chips"><span>HTML / CSS</span><span>JavaScript</span><span>Backend basics</span></div><p class="project-learning"><b>What I practised:</b> page structure, user flow and connecting frontend with backend routes.</p></div><div class="project-symbol green">S<span>↗</span></div>
+        </article>
+        <article class="project">
+          <div class="project-number">02</div><div class="project-main"><div class="project-kicker">PYTHON · MINI PROJECT</div><h3>Treasure Hunt</h3><p>A Python console game where the player moves through rooms, makes choices and searches for treasure.</p><div class="chips"><span>Python</span><span>Loops</span><span>Conditions</span></div><p class="project-learning"><b>What I practised:</b> decision-making, lists, functions and managing game state.</p></div><div class="project-symbol orange">✳</div>
+        </article>
+        <article class="project">
+          <div class="project-number">03</div><div class="project-main"><div class="project-kicker">PYTHON · MINI PROJECT</div><h3>Restaurant Management Simulator</h3><p>A console program that displays a food menu, accepts orders and calculates the bill.</p><div class="chips"><span>Python</span><span>Functions</span><span>Billing logic</span></div><p class="project-learning"><b>What I practised:</b> taking user input, calculating totals and organizing a menu-driven program.</p></div><div class="project-symbol blue">⌘</div>
+        </article>
+      </div>
+      <p class="project-footnote">I will add source-code links and screenshots after I publish the projects.</p>
+    </section>
+
+    <section class="section education-section" id="education">
+      <div class="section-label"><span>04</span> EDUCATION</div>
+      <h2>Education</h2>
+      <div class="education-timeline">
+        <article class="education-card">
+          <div class="edu-date">CURRENT</div><div><h3>Bachelor of Technology</h3><p class="edu-course">Computer Science & Engineering</p><p>JG University · Ahmedabad, Gujarat</p></div><div class="edu-badge">B.Tech</div>
+        </article>
+        <article class="education-card">
+          <div class="edu-date">COMPLETED</div><div><h3>Diploma</h3><p class="edu-course">Computer Engineering</p><p>Completed before joining B.Tech through diploma entry.</p></div><div class="edu-badge">Diploma</div>
+        </article>
+      </div>
+      <div class="next-step"><span>WHAT'S NEXT?</span><p>Keep improving my fundamentals, build more projects and explore AI/ML and data science.</p></div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="section-label"><span>05</span> CONTACT</div>
+      <div class="contact-grid">
+        <div class="contact-intro">
+          <h2>Contact</h2>
+          <p>If you want to discuss one of my projects, share feedback, or connect with me, you can reach me here.</p>
+          <div class="contact-detail">
+            <span>GITHUB</span>
+            <a href="https://github.com/princekapadiya2008" target="_blank" rel="noopener">github.com/princekapadiya2008</a>
+          </div>
+          <div class="contact-detail">
+            <span>EMAIL</span>
+            <p class="email-note">Add your email address in <code>js/script.js</code> to enable the contact form.</p>
+          </div>
+        </div>
+        <form id="contactForm" class="contact-form" novalidate>
+          <label for="name">Name</label>
+          <input id="name" name="name" placeholder="Your name" required>
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="Your email address" required>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" placeholder="Write your message here" required></textarea>
+          <button class="btn primary" type="submit">Send message</button>
+          <p id="formFeedback" class="form-feedback" role="status">The form will open your email application. It does not send or store messages on this website.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><a class="logo" href="#home">prince<span>.</span></a><p>Made while learning — one project at a time.<br>© <span id="year"></span> Prince Kapadiya</p><a href="https://github.com/princekapadiya2008" target="_blank" rel="noopener">GITHUB ↗</a><a href="#home">BACK TO TOP ↑</a></footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
